@@ -47,7 +47,7 @@ a {
 }
 
 .logo {
-
+    display: inline-block;
 
     font-family: 'Raleway';
     font-style: normal;
@@ -83,8 +83,8 @@ nav {
 
 .site-nav .link {
     display: block;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -185,7 +185,6 @@ nav {
     cursor: pointer;
     text-align: center;
     letter-spacing: 0.06em;
-    text-transform: uppercase;
 }
 
 .button-buy:hover,
@@ -214,6 +213,10 @@ nav {
 
 .main-list .item:not(:last-child) {
     margin-right: 30px;
+}
+
+.main-list li {
+    width: calc((100% - 90px) / 4);
 }
 
 
@@ -247,6 +250,7 @@ nav {
 }
 
 .name-card {
+    width: calc((100% - 90px) / 4);
     background-color: #fff;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -420,6 +424,10 @@ nav {
     margin-right: 30px;
     margin-bottom: 30px;
     width: calc((100% - 60px) / 3);
+}
+
+.portfolio-card img {
+    display: block;
 }
 
 
