@@ -347,6 +347,7 @@ nav {
 }
 
 .logo-footer {
+    display: inline-block;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
